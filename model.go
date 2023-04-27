@@ -95,7 +95,7 @@ type CartLineCost struct {
 type ProductViewedEvent struct {
 	ID        string                 `json:"id"`
 	ClientID  string                 `json:"clientId"`
-	EventName string                 `json:"name"`
+	Name      string                 `json:"name"`
 	Timestamp string                 `json:"timestamp"`
 	Context   map[string]interface{} `json:"context"`
 	Data      ProductViewedData      `json:"data"`
@@ -109,7 +109,7 @@ type ProductViewedData struct {
 type SearchSubmittedEvent struct {
 	ID        string                 `json:"id"`
 	ClientID  string                 `json:"clientId"`
-	EventName string                 `json:"name"`
+	Name      string                 `json:"name"`
 	Timestamp string                 `json:"timestamp"`
 	Context   map[string]interface{} `json:"context"`
 	Data      SearchSubmittedData    `json:"data"`
