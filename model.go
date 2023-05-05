@@ -216,7 +216,7 @@ type Attribute struct {
 }
 
 type CheckoutLineItem struct {
-	Id       string         `json:"id"`
+	ID       string         `json:"id"`
 	Quantity int            `json:"quantity"`
 	Title    string         `json:"title,omitempty"`
 	Variant  ProductVariant `json:"variant,omitempty"`
